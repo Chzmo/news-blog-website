@@ -4,6 +4,7 @@ function Home() {
 	return (
 		<div>
 			<Navbar />
+			<div className='h-[700px]'></div>
 		</div>
 	);
 }
