@@ -12,6 +12,7 @@ function Home() {
 					</div>
 				</div>
 			</div>
+			<div className='h-[400px]'></div>
 		</div>
 	);
 }
