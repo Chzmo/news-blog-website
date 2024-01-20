@@ -6,7 +6,7 @@ import { BsCloudsFill, BsInstagram, BsYoutube } from "react-icons/bs";
 
 function Social() {
 	return (
-		<div className='w-full bg-[#222222]'>
+		<div className='w-full bg-[#222222] hidden md:block'>
 			<div className='mx-auto max-w-[1070px] flex flex-col'>
 				<div className='flex items-center py-1 px-1 w-full justify-between text-[#fafafa] text-xs font-semibold'>
 					<div className='flex gap-8 items-center'>

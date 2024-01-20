@@ -23,7 +23,7 @@ function Navbar() {
 									<>
 										<Link
 											to={"/"}
-											key={index}
+											key={heading.title}
 											className={
 												index == 0
 													? "p-2 px-3 border-b-[#4db2ec] border-b-[3px] text-[14px] font-bold"

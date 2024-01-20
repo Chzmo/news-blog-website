@@ -10,7 +10,7 @@ function Hero() {
 	return (
 		<div className='flex flex-col gap-6'>
 			<Social />
-			<div className='mx-auto max-w-[1070px]'>
+			<div className='mx-auto max-w-[1070px] hidden md:flex'>
 				<div className='w-full flex items-center h-24 justify-between'>
 					<Link className='max-w-[30%]'>
 						<img className='w-full max-h-24 object-cover' src={logo} alt='logo' />
