@@ -55,7 +55,7 @@ function Trending() {
 				</div>
 				<div className='w-full h-[180px] md:w-[51%] md:h-[400px] lg:h-[470px] overflow-x-scroll md:overflow-hidden flex md:flex-col gap-[2px]'>
 					<div className='w-[400px] md:w-full h-full md:h-[248px] lg:h-[298px] gap[2px]'>
-						<div className='w-[400px] h-full md:w-full'>
+						<div className='w-[340px] sm:w-[400px] h-full md:w-full'>
 							<Image
 								image={secondImage}
 								heading={"GADGETS"}
@@ -66,20 +66,22 @@ function Trending() {
 						</div>
 					</div>
 					<div className='flex w-[800px] md:w-full md:h-[150px] lg:h-[200px] gap-[2px]'>
-						<div className='w-[400px] md:w-1/2 h-full'>
+						<div className='w-[340px] sm:w-[400px] md:w-1/2 h-full'>
 							<Image
 								image={thirdImage}
-								heading={"GADGETS2"}
-								content={"Game Changing Virtual Reality Console Hits the Market"}
+								heading={"TRAVEL"}
+								content={"Discover the Most Magical Sunset in Santorini"}
 								author={"Armin Vans"}
+								date={"August 7, 2019"}
 							/>
 						</div>
-						<div className='w-[400px] md:w-1/2 h-full'>
+						<div className='w-[340px] sm:w-[400px] md:w-1/2 h-full'>
 							<Image
 								image={forthImage}
-								heading={"GADGETS3"}
-								content={"Game Changing Virtual Reality Console Hits the Market"}
+								heading={"REVIEWS"}
+								content={"Computer Filters Noise to Make You a Better Listener"}
 								author={"Armin Vans"}
+								date={"August 7, 2019"}
 							/>
 						</div>
 					</div>
