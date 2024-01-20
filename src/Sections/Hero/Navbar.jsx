@@ -1,5 +1,6 @@
-import { FaSearch } from "react-icons/fa";
+// import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { LuSearch } from "react-icons/lu";
 
 const headings = [
 	{ title: "NEWS" },
@@ -34,7 +35,9 @@ function Navbar() {
 								);
 							})}
 						</div>
-						<FaSearch />
+						<div className=' font-normal flex items-center justify-center'>
+							<LuSearch size={20} />
+						</div>
 					</div>
 				</div>
 			</div>
