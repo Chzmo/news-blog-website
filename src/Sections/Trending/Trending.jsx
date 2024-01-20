@@ -8,7 +8,7 @@ function Trending() {
 	return (
 		<>
 			<div className='flex justify-center md:justify-between'>
-				<div className='flex flex-col justify-center items-center md:flex-row p-5 md:p-3 gap-1 md:gap-3'>
+				<div className='flex flex-col justify-center items-center md:flex-row p-3 md:p-5 gap-1 md:gap-3'>
 					<Link
 						className={
 							bg_color + " text-white px-2 py-1 text-xs text-center flex items-center"
@@ -33,6 +33,10 @@ function Trending() {
 						<MdKeyboardArrowRight size={15} />
 					</Link>
 				</div>
+			</div>
+
+			<div className='flex flex-col'>
+				<div className='w-full'></div>
 			</div>
 		</>
 	);
