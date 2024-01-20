@@ -4,11 +4,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { BsCloudsFill, BsInstagram, BsYoutube } from "react-icons/bs";
 
-function Navbar() {
+function Social() {
 	return (
-		<div className='flex flex-col w-full bg-[#222222]'>
-			<div className='mx-auto w-[80%]'>
-				<div className='flex items-center py-1 px-1 justify-between text-[#fafafa] text-xs font-semibold'>
+		<div className='w-full bg-[#222222]'>
+			<div className='mx-auto max-w-[1070px] flex flex-col'>
+				<div className='flex items-center py-1 px-1 w-full justify-between text-[#fafafa] text-xs font-semibold'>
 					<div className='flex gap-8 items-center'>
 						<span className='flex items-center gap-2'>
 							<BsCloudsFill size={20} /> 14.4
@@ -53,4 +53,4 @@ function Navbar() {
 	);
 }
 
-export default Navbar;
+export default Social;
