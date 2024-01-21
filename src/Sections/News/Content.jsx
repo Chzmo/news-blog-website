@@ -15,12 +15,18 @@ function Content() {
 								}
 								title={"Interior Designer and Maude Interiors by Yvonne Designs"}
 								author={"author"}
-								hover_color={"hover:text-[#f9c100]"}
+								text_hover={"text-[#f9c100]"}
 							/>
 						</div>
 					</div>
 					<div className='flex w-full md:w-[48%]'>
-						<div className='w-full flex flex-col gap-4'>{/* <Card /> */}</div>
+						<div className='w-full flex flex-col gap-4'>
+							{[1, 2, 3, 4].map((index) => (
+								<>
+									<Card key={index} />
+								</>
+							))}
+						</div>
 					</div>
 				</div>
 			</div>
