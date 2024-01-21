@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const data = {
@@ -17,7 +16,7 @@ function Heading() {
 	const hover_color = "hover:text-[#f9c100]";
 	const border = "border-b-[2px] border-b-[#f9c100]";
 	const bg_color = "bg-[#f9c100]";
-	const text_color="text-[#f9c100]";
+	const text_color = "text-[#f9c100]";
 	return (
 		<div className={`w-full flex justify-between ${border}`}>
 			<div className={"flex item-center p-[3px] text-[14px] " + bg_color}>
