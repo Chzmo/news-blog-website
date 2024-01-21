@@ -12,14 +12,13 @@ const data = {
 		"Gadgets",
 	],
 };
-function Heading() {
-	const hover_color = "hover:text-[#f9c100]";
-	const border = "border-b-[2px] border-b-[#f9c100]";
-	const bg_color = "bg-[#f9c100]";
-	const text_color = "text-[#f9c100]";
+function Heading({ hover_color, border_color, bg_color, text_color }) {
 	return (
-		<div className={`w-full flex justify-between ${border}`}>
-			<div className={"flex item-center p-[3px] text-[14px] " + bg_color}>
+		<div className={`w-full flex justify-between ${border_color}`}>
+			<div
+				className={
+					"flex item-center p-[3px] px-3 text-[14px] font-medium " + bg_color
+				}>
 				{data.title}
 			</div>
 			<div className='flex item-center gap-3'>
