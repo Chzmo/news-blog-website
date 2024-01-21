@@ -1,4 +1,5 @@
 import Hero from "../../Sections/Hero/Hero";
+import News from "../../Sections/News/News";
 import Trending from "../../Sections/Trending/Trending";
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
 				<div className='w-full'>
 					<div className='mx-auto max-w-[1070px]'>
 						<Trending />
+						<News />
 					</div>
 				</div>
 			</div>
