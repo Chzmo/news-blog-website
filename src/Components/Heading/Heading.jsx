@@ -12,6 +12,7 @@ const data = {
 		"Gadgets",
 	],
 };
+
 function Heading({ hover_color, border_color, bg_color, text_color }) {
 	return (
 		<div className={`w-full flex justify-between ${border_color}`}>
