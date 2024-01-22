@@ -6,14 +6,14 @@ const data = {
 	categories: ["All", "Travel", "Gadgets", "Style Hunter", "Health & Fitness"],
 };
 
-function Heading({ hover_color, border_color, bg_color, text_color }) {
+function Heading({ hover_color, border_color, bg_color, text_color, heading_text }) {
 	return (
 		<div className={`w-full flex justify-between ${border_color}`}>
 			<div
 				className={
 					"flex item-center p-[3px] px-3 text-[14px] font-medium " + bg_color
 				}>
-				{data.title}
+				{heading_text || "DON'T MISS"}
 			</div>
 			<div className='flex item-center gap-3'>
 				{data.categories.map((category, index) => (

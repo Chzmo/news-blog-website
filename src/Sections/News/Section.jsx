@@ -57,6 +57,21 @@ const section_2 = [
 	},
 ];
 
+const section_3 = [
+	{
+		image: image_max,
+		content: "Have a look around this bold and colourful 1930s semi in London",
+	},
+	{
+		image: image_54,
+		content: "Outdoor Kitchen Decorating: Furnish and Accessorize with Flair",
+	},
+	{
+		image: image_101,
+		content: "Interior Design Tips: Decorating to Celebrate the Great Outdoors",
+	},
+];
+
 function Section() {
 	return (
 		<>
@@ -119,6 +134,7 @@ function Section() {
 					border_color={"border-b-[2px] border-b-[#3a863d]"}
 					bg_color={"bg-[#3a863d] text-white"}
 					text_color={"text-[#3a863d]"}
+					heading_text={"LIFESTYLE NEWS"}
 				/>
 				<div className='flex flex-col w-full mt-2 gap-4'>
 					<div className='w-full'>
@@ -175,6 +191,44 @@ function Section() {
 				<LinkArrows links={true} hover_arrorw_color={"hover:bg-[#3a863d]"} />
 			</div>
 			{/* End section_2 */}
+
+			{/* Start section_3 */}
+			<div className='w-full flex flex-col gap-3 '>
+				<Heading
+					hover_color={"hover:text-[#5b7587] "}
+					border_color={"border-b-[2px] border-b-[#5b7587]"}
+					bg_color={"bg-[#5b7587] text-white"}
+					text_color={"text-[#5b7587]"}
+					heading_text={"HOUSE DESIGNS"}
+				/>
+				<div className='flex flex-col w-full mt-2 gap-4'>
+					<div className='w-full'>
+						<div className='flex flex-col md:flex-row md:gap-[2%] w-full gap-4'>
+							{section_3.map(
+								(section, index) =>
+									index < 3 && (
+										<>
+											<div className='flex w-full md:w-[32%]'>
+												<div className='w-full'>
+													<Card
+														key={index}
+														image={section.image}
+														image_class={"w-full h-[200px] sm:h-[230px] md:h-[170px]"}
+														title={"Interior Designer and Maude Interiors by Yvonne Designs"}
+														text_hover={" text-[#5b7587] "}
+														text_size={"text-sm"}
+													/>
+												</div>
+											</div>
+										</>
+									)
+							)}
+						</div>
+					</div>
+				</div>
+				<LinkArrows links={true} hover_arrorw_color={"hover:bg-[#5b7587]"} />
+			</div>
+			{/* End section_3 */}
 		</>
 	);
 }
