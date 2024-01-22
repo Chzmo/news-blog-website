@@ -34,7 +34,7 @@ function Footer() {
 				<div className='absolute top-0 left-0 w-full h-full'>
 					<img src={footerImage} className='w-full h-full object-cover' alt='' />
 				</div>
-				<div className='top-0 left-0 absolute w-full h-full bg-neutral-900 opacity-[0.9] z-10 text-white'>
+				<div className='top-0 left-0 bottom-0 absolute w-full h-full bg-neutral-900 opacity-[0.9] z-10 text-white'>
 					<div className='mx-auto max-w-[1070px] h-full flex flex-col px-6 md:px-2'>
 						<div className='w-full pt-12'>
 							<div className='flex flex-col md:flex-row md:gap-[2%]'>
