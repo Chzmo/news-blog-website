@@ -30,7 +30,7 @@ const section_1 = [
 function Footer() {
 	return (
 		<div className='flex w-full mt-10 text-white'>
-			<div className='w-full relative  md:min-h-[800px] min-h-[1000px]'>
+			<div className='w-full relative  md:min-h-[800px] min-h-[1400px]'>
 				<div className='absolute top-0 left-0 w-full h-full'>
 					<img src={footerImage} className='w-full h-full object-cover' alt='' />
 				</div>
