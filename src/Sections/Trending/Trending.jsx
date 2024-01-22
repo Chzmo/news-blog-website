@@ -22,7 +22,7 @@ function Trending() {
 						TRENDING NOW
 					</Link>
 					<div
-						className='text-[#3d3d3d] font-[450] hover:cursor-pointer'
+						className='text-[#3d3d3d] font-[450] hover:cursor-pointer text-center'
 						onMouseEnter={() => setbg_color("bg-[#4db2ec] ")}
 						onMouseLeave={() => setbg_color("bg-[#222222] ")}>
 						Another Big Apartment Project Slated for Broad Ripple Company

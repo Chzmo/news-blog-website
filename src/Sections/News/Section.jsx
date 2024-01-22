@@ -9,6 +9,7 @@ import image_91 from "../../assets/images/91-218x150.jpg.webp";
 
 import image_max from "../../assets/images/maxresdefault-7-485x360.jpg.webp";
 import image_54 from "../../assets/images/54-485x360.jpg.webp";
+import LinkArrows from "../../Components/LinkArrows/LinkArrows";
 
 const section_1 = [
 	{
@@ -81,7 +82,6 @@ function Section() {
 										author={"author"}
 										text_hover={"text-[#f9c100]"}
 										links={true}
-										hover_arrorw_color={"hover:bg-[#f9c100]"}
 									/>
 								</div>
 							</div>
@@ -108,6 +108,7 @@ function Section() {
 						</div>
 					</div>
 				</div>
+				<LinkArrows links={true} />
 			</div>
 			{/* End section_1 */}
 
@@ -137,34 +138,12 @@ function Section() {
 														title={"Interior Designer and Maude Interiors by Yvonne Designs"}
 														author={"author"}
 														text_hover={" text-[#3a863d] "}
-														// links={true}
-														hover_arrorw_color={"hover:bg-[#3a863d]"}
 													/>
 												</div>
 											</div>
 										</>
 									)
 							)}
-							{/* <div className='flex w-full md:w-[48%]'>
-								<div className='w-full flex flex-col gap-4'>
-									{section_1.map((section, index) => (
-										<>
-											<Card
-												key={index}
-												card_class={"flex gap-5 w-full"}
-												image_class={
-													"w-[100px] h-[90px] sm:w-[200px] sm:h-[140px] md:w-[100px] h-[60px] md:h-[80px]"
-												}
-												image={section.image}
-												title={section.content}
-												author={"author"}
-												text_hover={"text-[#3a863d]"}
-												text_size={"text-sm"}
-											/>
-										</>
-									))}
-								</div>
-							</div> */}
 						</div>
 					</div>
 				</div>
@@ -193,6 +172,7 @@ function Section() {
 						</div>
 					</div>
 				</div>
+				<LinkArrows links={true} hover_arrorw_color={"hover:bg-[#3a863d]"} />
 			</div>
 			{/* End section_2 */}
 		</>
