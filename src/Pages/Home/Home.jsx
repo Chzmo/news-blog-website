@@ -1,6 +1,7 @@
 import Hero from "../../Sections/Hero/Hero";
 import News from "../../Sections/News/News";
 import Trending from "../../Sections/Trending/Trending";
+import Footer from "../../Sections/Footer/Footer";
 
 function Home() {
 	return (
@@ -14,7 +15,7 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className='h-[40px]'></div>
+			<Footer />
 		</div>
 	);
 }
