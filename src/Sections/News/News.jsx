@@ -21,7 +21,11 @@ function News() {
 					<small className='text-small text-slate-400'>- Advertisement -</small>
 				</div>
 				<Link className='w-full] '>
-					<img src={image} className='h-full w-full object-cover' alt='' />
+					<img
+						src={image}
+						className='h-full w-full object-cover hover:scale-[1.08] transition-all'
+						alt=''
+					/>
 				</Link>
 			</div>
 		</div>
