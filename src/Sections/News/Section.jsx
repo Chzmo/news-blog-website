@@ -46,6 +46,14 @@ const section_2 = [
 		image: image_91,
 		content: "Citroen Could Revive the Third Car for Loeb/Breen Winning Couple",
 	},
+	{
+		image: image_105,
+		content: "Have a look around this bold and colourful 1930s semi in London",
+	},
+	{
+		image: image_104,
+		content: "Outdoor Kitchen Decorating: Furnish and Accessorize with Flair",
+	},
 ];
 
 function Section() {
@@ -157,6 +165,31 @@ function Section() {
 									))}
 								</div>
 							</div> */}
+						</div>
+					</div>
+				</div>
+				<div className='flex flex-col w-full mt-2 gap-4'>
+					<div className='w-full'>
+						<div className='flex flex-col md:grid md:grid-cols-2 md:gap-[4%] w-full gap-4'>
+							{section_2.map(
+								(section, index) =>
+									index > 1 && (
+										<>
+											<Card
+												key={index}
+												card_class={"flex gap-5 w-full"}
+												image_class={
+													"w-[100px] h-[90px] sm:w-[200px] sm:h-[140px] md:w-[100px] h-[60px] md:h-[80px]"
+												}
+												image={section.image}
+												title={section.content}
+												author={"author"}
+												text_hover={"text-[#3a863d]"}
+												text_size={"text-sm"}
+											/>
+										</>
+									)
+							)}
 						</div>
 					</div>
 				</div>
