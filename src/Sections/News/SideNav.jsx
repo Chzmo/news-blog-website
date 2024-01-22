@@ -14,6 +14,17 @@ import image_91 from "../../assets/images/91-218x150.jpg.webp";
 import image_max from "../../assets/images/maxresdefault-7-485x360.jpg.webp";
 import image_54 from "../../assets/images/54-485x360.jpg.webp";
 
+const section_1 = [
+	{
+		image: image_101,
+		content: "Interior Design Tips: Decorating to Celebrate the Great Outdoors",
+	},
+	{
+		image: image_91,
+		content: "Citroen Could Revive the Third Car for Loeb/Breen Winning Couple",
+	},
+];
+
 const section_3 = [
 	{
 		image: image_max,
@@ -73,6 +84,7 @@ function SideNav() {
 					<div className='text-sm font-semibold'>SUBSCRIBE</div>
 				</Link>
 			</div>
+
 			<div className='flex flex-col items-center w-full'>
 				<div className='flex items-center'>
 					<small className='text-small text-slate-400'>- Advertisement -</small>
@@ -83,12 +95,13 @@ function SideNav() {
 					</div>
 				</Link>
 			</div>
+
 			<div className='flex flex-col w-full mt-4 gap-3'>
 				<Heading
-					hover_color={"hover:text-[#222222] "}
-					border_color={"border-b-[2px] border-b-[#222222]"}
-					bg_color={"bg-[#222222] text-white"}
-					text_color={"text-[#222222]"}
+					hover_color={"hover:text-[#4DB2EC] "}
+					border_color={"border-b-[2px] border-b-[#4DB2EC]"}
+					bg_color={"bg-[#4DB2EC] text-white"}
+					text_color={"text-[#4DB2EC]"}
 					heading_text={"MAKE IT MODERN"}
 					links={false}
 				/>
@@ -141,6 +154,26 @@ function SideNav() {
 							text_hover={"text-[#f9c100]"}
 							links={true}
 						/>
+					</div>
+				</div>
+				<div className='flex w-full'>
+					<div className='w-full flex flex-col gap-4'>
+						{section_1.map((section, index) => (
+							<>
+								<Card
+									key={index}
+									card_class={"flex gap-5 w-full"}
+									image_class={
+										"w-[100px] h-[90px] sm:w-[200px] sm:h-[140px] md:w-[100px] h-[60px] md:h-[80px]"
+									}
+									image={section.image}
+									title={section.content}
+									author={"author"}
+									text_hover={" text-[#f9c100] "}
+									text_size={"text-sm"}
+								/>
+							</>
+						))}
 					</div>
 				</div>
 			</div>
