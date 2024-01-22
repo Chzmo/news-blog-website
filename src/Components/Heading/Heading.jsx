@@ -3,14 +3,7 @@ import { Link } from "react-router-dom";
 
 const data = {
 	title: "DON'T MISS",
-	categories: [
-		"All",
-		"Style Hunter",
-		"Vogue",
-		"Health & Fitness",
-		"Travel",
-		"Gadgets",
-	],
+	categories: ["All", "Style Hunter", "Health & Fitness", "Travel", "Gadgets"],
 };
 
 function Heading({ hover_color, border_color, bg_color, text_color }) {
@@ -28,7 +21,7 @@ function Heading({ hover_color, border_color, bg_color, text_color }) {
 						key={index}
 						className={`text-[#3d3d3d] text-sm font-medium ${hover_color} ${
 							index == 0 && text_color
-						}`}>
+						} ${index > 2 && "hidden md:flex"}`}>
 						{category}
 					</Link>
 				))}
