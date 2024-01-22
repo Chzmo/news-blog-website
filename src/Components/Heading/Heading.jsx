@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const data = {
 	title: "DON'T MISS",
-	categories: ["All", "Style Hunter", "Health & Fitness", "Travel", "Gadgets"],
+	categories: ["All", "Travel", "Gadgets", "Style Hunter", "Health & Fitness"],
 };
 
 function Heading({ hover_color, border_color, bg_color, text_color }) {
