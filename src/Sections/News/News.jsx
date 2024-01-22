@@ -20,7 +20,7 @@ function News() {
 				<div className='flex items-center flex-col mb-4'>
 					<small className='text-small text-slate-400'>- Advertisement -</small>
 				</div>
-				<Link className='w-full h-[120px]'>
+				<Link className='w-full] '>
 					<img src={image} className='h-full w-full object-cover' alt='' />
 				</Link>
 			</div>
