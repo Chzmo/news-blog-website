@@ -35,8 +35,8 @@ function Card({
 					{title ? (
 						<>
 							<Link
-								className={`flex w-full text-[#3d3d3d] font-semibold ${
-									text_size || "text-xl"
+								className={`flex w-full font-semibold ${
+									text_size || "text-xl "
 								} ${hover}`}>
 								<h5>{title}</h5>
 							</Link>

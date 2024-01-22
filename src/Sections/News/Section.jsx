@@ -90,7 +90,7 @@ function Section() {
 												image={section.image}
 												title={section.content}
 												author={"author"}
-												text_hover={"text-[#f9c100]"}
+												text_hover={" text-[#f9c100] "}
 												text_size={"text-sm"}
 											/>
 										</>
@@ -104,11 +104,11 @@ function Section() {
 			{/* End section_1 */}
 
 			{/* Start section_2 */}
-			<div className='w-full flex flex-col gap-3'>
+			<div className='w-full flex flex-col gap-3 '>
 				<Heading
-					hover_color={"hover:text-[#3a863d]"}
+					hover_color={"hover:text-[#3a863d] "}
 					border_color={"border-b-[2px] border-b-[#3a863d]"}
-					bg_color={"bg-[#3a863d]"}
+					bg_color={"bg-[#3a863d] text-white"}
 					text_color={"text-[#3a863d]"}
 				/>
 				<div className='flex flex-col w-full mt-2 gap-4'>
@@ -128,7 +128,7 @@ function Section() {
 														}
 														title={"Interior Designer and Maude Interiors by Yvonne Designs"}
 														author={"author"}
-														text_hover={"text-[#3a863d]"}
+														text_hover={" text-[#3a863d] "}
 														// links={true}
 														hover_arrorw_color={"hover:bg-[#3a863d]"}
 													/>
