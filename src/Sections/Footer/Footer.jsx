@@ -84,7 +84,7 @@ function Footer() {
 							</div>
 						</div>
 						<div className='w-full px-[10%] py-20'>
-							<div className='w-full border-b-slate-600 border-b-[1px]'></div>
+							<div className='w-full border-b-gray-500 border-b-[1px]'></div>
 						</div>
 					</div>
 				</div>
