@@ -22,27 +22,27 @@ function SideNav() {
 						<span className='flex items-center justify-center bg-slate-500 text-white p-2'>
 							<FaFacebookF size={20} />
 						</span>
-						<span>4353 Fans</span>
+						<span className='text-sm font-semibold'>4353 Fans</span>
 					</div>
-					<div>LIKE</div>
+					<div className='text-sm font-semibold'>LIKE</div>
 				</div>
 				<div className='flex items-center justify-between'>
 					<div className='flex gap-3 items-center'>
-						<span className='flex items-center justify-center bg-slate-500 text-white p-2'>
+						<span className='flex items-center justify-center bg-[#4DB2EC] text-white p-2'>
 							<FaTwitter size={20} />
 						</span>
-						<span>4353 Fans</span>
+						<span className='text-sm font-semibold'>4353 Followers</span>
 					</div>
-					<div>FOLLOW</div>
+					<div className='text-sm font-semibold'>FOLLOW</div>
 				</div>
 				<div className='flex items-center justify-between'>
 					<div className='flex gap-3 items-center'>
 						<span className='flex items-center justify-center bg-[#da513b] text-white p-2'>
 							<FaPlay size={20} />
 						</span>
-						<span>4353 Fans</span>
+						<span className='text-sm font-semibold'>4353 Subscribers</span>
 					</div>
-					<div>SUBSCRIBE</div>
+					<div className='text-sm font-semibold'>SUBSCRIBE</div>
 				</div>
 			</div>
 		</div>
