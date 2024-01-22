@@ -23,7 +23,10 @@ function Card({
 				className={`${card_class || "flex flex-col gap-3 w-full"}`}
 				onMouseEnter={() => setHover(text_hover)}
 				onMouseLeave={() => setHover("text-[#3d3d3d]")}>
-				<div className={`${image_class || "w-full h-[400px] md:h-[250px]"}`}>
+				<div
+					className={`${
+						image_class || "w-full h-[200px] sm:h-[230px] md:h-[250px]"
+					}`}>
 					<div className='flex w-full h-full relative overflow-hidden'>
 						<img
 							className='absolute w-full top-0 left-0 h-full object-cover'
