@@ -1,15 +1,14 @@
 import Card from "../../Components/Card/Card";
 import footerImage from "../../assets/images/footer-bg1.jpg";
 
-import image from "../../assets/images/house.webp";
 import image_105 from "../../assets/images/105-218x150.jpg.webp";
 import image_104 from "../../assets/images/104-218x150.jpg.webp";
 import image_101 from "../../assets/images/101-218x150.jpg.webp";
-import image_91 from "../../assets/images/91-218x150.jpg.webp";
+import logo from "../../assets/images/np12blue-retina.png.webp";
 
-import image_max from "../../assets/images/maxresdefault-7-485x360.jpg.webp";
-import image_54 from "../../assets/images/54-485x360.jpg.webp";
-import LinkArrows from "../../Components/LinkArrows/LinkArrows";
+// import image_max from "../../assets/images/maxresdefault-7-485x360.jpg.webp";
+// import image_54 from "../../assets/images/54-485x360.jpg.webp";
+// import LinkArrows from "../../Components/LinkArrows/LinkArrows";
 import { Link } from "react-router-dom";
 
 const section_1 = [
@@ -30,7 +29,7 @@ const section_1 = [
 function Footer() {
 	return (
 		<div className='flex w-full mt-10 text-white'>
-			<div className='w-full relative  md:min-h-[800px] min-h-[1400px]'>
+			<div className='w-full relative  md:min-h-[800px] min-h-[1200px]'>
 				<div className='absolute top-0 left-0 w-full h-full'>
 					<img src={footerImage} className='w-full h-full object-cover' alt='' />
 				</div>
@@ -83,8 +82,15 @@ function Footer() {
 								</div>
 							</div>
 						</div>
-						<div className='w-full px-[10%] py-20'>
+						<div className='w-full px-[10%] py-10 md:py-20'>
 							<div className='w-full border-b-gray-500 border-b-[1px]'></div>
+						</div>
+						<div className='flex flex-col w-full gap-4 md:gap-[2%] md:flex-row'>
+							<div className='flex items-center w-1/2'>
+								<div className='flex justify-center w-full'>
+									<img src={logo} />
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
