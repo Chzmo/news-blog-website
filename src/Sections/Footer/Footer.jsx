@@ -111,7 +111,7 @@ function Footer() {
 							<div className='flex md:w-[23%]'>
 								<div className='flex items-center flex-col md:items-start gap-4 w-full'>
 									<div className='flex text-white font-semibold'>FOLLOW US</div>
-									<div className='flex w-full gap-2 justify-center'>
+									<div className='flex w-full gap-2 justify-center md:justify-start'>
 										<Link className='flex items-center justify-between'>
 											<span className='flex items-center justify-center bg-slate-500 text-white p-2'>
 												<FaFacebookF size={20} />
