@@ -86,7 +86,7 @@ function News() {
 			<div className='flex flex-col gap-[4%] w-full px-6 md:flex-row lg:px-4 mt-5'>
 				<div className='w-full md:w-[65%] flex flex-col gap-11'>
 					{/* Start section */}
-					<div className='w-full flex flex-col gap-3 '>
+					<div className='w-full flex flex-col gap-3 mb-8'>
 						<Heading
 							border_color={"border-b-[2px] border-b-[#222222]"}
 							bg_color={"bg-[#222222] text-white"}
@@ -94,7 +94,7 @@ function News() {
 							heading_text={"LATEST ARTICLES"}
 							links={false}
 						/>
-						<div className='flex flex-col w-full mt-2 gap-4 mb-4'>
+						<div className='flex flex-col w-full mt-2 gap-4'>
 							<div className='w-full'>
 								<div className='flex flex-col md:grid md:grid-cols-2 md:gap-[4%] w-full gap-4'>
 									{section.map(
@@ -121,8 +121,8 @@ function News() {
 								</div>
 							</div>
 						</div>
-						<LinkArrows links={true} hover_arrorw_color={"hover:bg-[#3a863d]"} />
 					</div>
+					<LinkArrows links={true} hover_arrorw_color={"hover:bg-[#3a863d]"} />
 					{/* End section */}
 				</div>
 				<div className='w-full md:w-[31%]'>
