@@ -69,11 +69,11 @@ function News() {
 					{/* Start section */}
 					<div className='w-full flex flex-col gap-3 '>
 						<Heading
-							hover_color={"hover:text-[#3a863d] "}
-							border_color={"border-b-[2px] border-b-[#3a863d]"}
-							bg_color={"bg-[#3a863d] text-white"}
+							border_color={"border-b-[2px] border-b-[#222222]"}
+							bg_color={"bg-[#222222] text-white"}
 							text_color={"text-[#3a863d]"}
 							heading_text={"LATEST ARTICLES"}
+							links={false}
 						/>
 						<div className='flex flex-col w-full mt-2 gap-4 mb-4'>
 							<div className='w-full'>
