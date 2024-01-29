@@ -88,7 +88,7 @@ function Footer() {
 						<div className='flex flex-col w-full gap-4 md:gap-[2%] md:flex-row'>
 							<div className='flex items-center w-1/2'>
 								<div className='flex justify-center w-full'>
-									<img src={logo} />
+									{/* <img src={logo} /> */}
 								</div>
 							</div>
 						</div>
