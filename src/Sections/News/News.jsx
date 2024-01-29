@@ -73,7 +73,7 @@ function News() {
 							border_color={"border-b-[2px] border-b-[#3a863d]"}
 							bg_color={"bg-[#3a863d] text-white"}
 							text_color={"text-[#3a863d]"}
-							heading_text={"LIFESTYLE NEWS"}
+							heading_text={"LATEST ARTICLES"}
 						/>
 						<div className='flex flex-col w-full mt-2 gap-4 mb-4'>
 							<div className='w-full'>
