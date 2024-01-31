@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { LuSearch } from "react-icons/lu";
-import { IoCloseOutline } from "react-icons/io5";
+import { IoCloseOutline, IoSearchOutline } from "react-icons/io5";
 import image from "../../assets/images/mobile-bg1.jpg";
 
 const headings = [
@@ -54,6 +54,9 @@ function Navbar() {
 						<div className='w-6 h-0.5 bg-white'></div>
 						<div className='w-6 h-0.5 bg-white'></div>
 					</Link>
+					<Link>
+						<IoSearchOutline size={20} />
+					</Link>
 				</div>
 				{sideNav == "open" && (
 					<>
@@ -71,12 +74,12 @@ function Navbar() {
 										</Link>
 									</div>
 									<div className='flex w-full justify-center text-2xl font-bold'>
-										<Link>Sign in</Link>
+										<Link onClick={() => setSideNav("close")}>Sign in</Link>
 									</div>
-									<div className='flex flex-col gap-3'>
-										<Link className='text-2xl font-bold'>Blog</Link>
-										<Link className='text-2xl font-bold'>Forum</Link>
-										<Link className='text-2xl font-bold'>Buy now!</Link>
+									<div className='flex flex-col gap-3 text-2xl font-bold text-white'>
+										<Link onClick={() => setSideNav("close")}>Blog</Link>
+										<Link onClick={() => setSideNav("close")}>Forum</Link>
+										<Link onClick={() => setSideNav("close")}>Buy now!</Link>
 									</div>
 								</div>
 							</div>
