@@ -64,11 +64,19 @@ function Navbar() {
 								</div>
 							</div>
 							<div className='top-0 left-0 w-full h-full absolute bg-neutral-900 opacity-[0.5] z-20'>
-								<div className='flex flex-col w-full h-full p-4'>
+								<div className='flex flex-col w-full h-full p-4 gap-10'>
 									<div className='flex w-full justify-end'>
 										<Link onClick={() => setSideNav("close")}>
 											<IoCloseOutline size={40} />
 										</Link>
+									</div>
+									<div className='flex w-full justify-center text-2xl font-bold'>
+										<Link>Sign in</Link>
+									</div>
+									<div className='flex flex-col gap-3'>
+										<Link className='text-2xl font-bold'>Blog</Link>
+										<Link className='text-2xl font-bold'>Forum</Link>
+										<Link className='text-2xl font-bold'>Buy now!</Link>
 									</div>
 								</div>
 							</div>
