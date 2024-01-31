@@ -57,7 +57,7 @@ function Navbar() {
 				</div>
 				{sideNav == "open" && (
 					<>
-						<div className='fixed top-0 left-0 w-full h-screen z-10'>
+						<div className='fixed top-0 left-0 w-full h-screen z-50'>
 							<div className='w-full h-full relative'>
 								<div className='absolute w-full h-full'>
 									<img src={image} alt='' className='h-full w-full object-cover ' />
