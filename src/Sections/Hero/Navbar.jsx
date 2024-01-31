@@ -1,8 +1,8 @@
 // import { FaSearch } from "react-icons/fa";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { LuSearch } from "react-icons/lu";
-import { useState } from "react";
-
+import { IoCloseOutline } from "react-icons/io5";
 import image from "../../assets/images/mobile-bg1.jpg";
 
 const headings = [
@@ -65,7 +65,11 @@ function Navbar() {
 							</div>
 							<div className='top-0 left-0 w-full h-full absolute bg-neutral-900 opacity-[0.5] z-20'>
 								<div className='flex flex-col w-full h-full p-4'>
-									<div className='flex w-full justify-end'></div>
+									<div className='flex w-full justify-end'>
+										<Link onClick={() => setSideNav("close")}>
+											<IoCloseOutline size={40} />
+										</Link>
+									</div>
 								</div>
 							</div>
 						</div>
